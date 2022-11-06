@@ -16,3 +16,17 @@
 # true
 
 p "Enter one word"
+
+word = gets.chomp
+
+word = word.downcase
+
+palindrome = word.reverse
+
+if word == palindrome
+  p "true"
+
+else
+  p "false"
+
+end
